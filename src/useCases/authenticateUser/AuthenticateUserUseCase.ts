@@ -1,6 +1,5 @@
 import * as dotenv from 'dotenv'
 import { compare } from "bcryptjs";
-import { sign } from 'jsonwebtoken';
 
 import { client } from "../../prisma/client";
 import { GenerateRefreshTokenProvider } from '../../provider/GenerateRefreshTokenProvider';
